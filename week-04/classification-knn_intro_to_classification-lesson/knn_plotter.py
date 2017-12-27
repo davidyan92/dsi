@@ -155,4 +155,4 @@ class KNNBoundaryPlotter(object):
                          nn=widgets.IntSlider(min=np.min(self.nn_range),
                                               max=np.max(self.nn_range),
                                               step=1, value=1),
-                         weights=('uniform','distance'))
+                         weights=['uniform','distance'])
